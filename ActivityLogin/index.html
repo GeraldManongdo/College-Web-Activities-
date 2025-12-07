@@ -10,20 +10,11 @@
     <main class="container">
         <form id="loginForm" novalidate>
             <h2>Login</h2>
-
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" autocomplete="username" required>
-
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" autocomplete="current-password" required>
-
-            <button type="submit">Sign In</button>
-
-            <div id="message" aria-live="polite"></div>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" autocomplete="email" required>
+            <button type="submit" onclick="validate()">Submit</button>
         </form>
     </main>
-
-    <script src="index.js"></script>
 
 <script src="index.js"></script>    
 </body>
